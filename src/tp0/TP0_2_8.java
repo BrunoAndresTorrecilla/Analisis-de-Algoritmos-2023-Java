@@ -13,7 +13,6 @@ class StudentAverage {
 }
 
 public class TP0_2_8 {
-    static final String OUTPUT_FILE_PATH = "src/tp0/output_files/prime_numbers.txt";
     static final String[] STUDENTS = new String[] { "Pepe", "Monica", "Paola", "Coqui", "Dardo", "Maria Elena" };
     static final String[] SUBJECTS = new String[] { "Matemática", "Química", "Lengua", "Historia", "Geografía" };
 
