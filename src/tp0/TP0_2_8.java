@@ -71,15 +71,12 @@ public class TP0_2_8 {
     private static int[] calculateAveragePerSubject(int[][] notes) {
         int[] averages = new int[SUBJECTS.length];
 
-        for (int i = 0; i < notes.length; i++) {
-            for (int j = 0; j < notes[i].length; j++) {
-                averages[j] += notes[i][j];
+        for (int i = 0; i < SUBJECTS.length; i++) {
+            for (int j = 0; j < STUDENTS.length; j++) {
+                averages[i] += notes[j][i];
             }
-        }
-        for (int i = 0; i < averages.length; i++) {
             averages[i] = averages[i] / SUBJECTS.length;
         }
-
         return averages;
     }
 
